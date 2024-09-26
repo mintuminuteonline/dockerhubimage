@@ -2,7 +2,7 @@
 - task: Docker@2
   inputs:
     containerRegistry: 'dockerimagepush'
-    repository: 'mintuminuteonline/dockerhubimage'
+    repository: 'dockerhubimage'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
 # Build a Docker image
